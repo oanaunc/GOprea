@@ -1,0 +1,19 @@
+Syntax example for the language
+
+How to create table or view with name Subject
+
+create table Subject(int Subject_ID, int weight, string name)
+
+How to insert into a table
+
+Subject += (23,90,'George')
+
+How To select all table
+
+Subject()
+
+How to select just a column
+
+Subject(2)
+
+OR Subject('name')
