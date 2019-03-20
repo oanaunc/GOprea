@@ -5,6 +5,7 @@ class Config:
     operators = ['+','*','-','/','**','*>','*<','>','<','=','!=']
     delimiters = ['(',')','[',']','{','}','.',',']
     key_words = ['create','table','view','as','on','int','float','string','where']
+    types = ['int','float','string']
     banned_symbols = []
 
     @staticmethod

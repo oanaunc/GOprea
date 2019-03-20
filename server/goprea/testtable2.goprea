@@ -1,0 +1,1 @@
+create table testtable2 ( int table_id )
