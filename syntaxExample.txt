@@ -10,8 +10,11 @@ How To select all table: Subject()
 
 How to select just a column: Subject(2)
 
-OR Subject('name')
+OR Subject(name)
 
 How to join two tables: table_one as o * table_two as two (o.col1,two.col1)
+
+To add a where condition use []
+Subject(name)[id=2]
 
 
